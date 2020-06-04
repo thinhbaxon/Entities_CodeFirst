@@ -30,5 +30,10 @@ namespace Entities_CodeFirst
             });
             dataGridView1.DataSource = l.ToList();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
